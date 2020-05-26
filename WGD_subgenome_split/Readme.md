@@ -13,12 +13,23 @@ How it works?
 #pipeline dependencies
 
 
-1 LASTZ:  https://github.com/lastz/lastz
-2 LAST:   http://last.cbrc.jp/
-3 MCL :   https://micans.org/mcl/
-4 UCSC genome browser 'kent' bioinformatic utilities: 
+1 LASTZ: 
+  https://github.com/lastz/lastz
 
-makesure those tools on your path, remeber edit ~/.bashrc like this:
+2 LAST:   
+  http://last.cbrc.jp/
+
+3 MCL :   
+  https://micans.org/mcl/
+
+4 UCSC genome browser 'kent' bioinformatic utilities
+  http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v385/
+
+5 bedtools
+  https://bedtools.readthedocs.io/en/latest/
+  
+  
+ Please makesure those tools on your path, remeber edit ~/.bashrc like this:
 
 export PATH="/home/fandingding/software/last/bin/":$PATH;
 
