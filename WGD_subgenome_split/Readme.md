@@ -14,23 +14,40 @@
 
 
 1 LASTZ: 
+
   https://github.com/lastz/lastz
 
-2 LAST:   
+2 LAST: 
+
   http://last.cbrc.jp/
 
-3 MCL :   
+3 MCL :  
+
   https://micans.org/mcl/
 
 4 UCSC genome browser 'kent' bioinformatic utilities:
 
   http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v385/
 
-5 bedtools
+5 bedtools:
+
   https://bedtools.readthedocs.io/en/latest/
   
   
 Please makesure those tools on your path, remeber edit ~/.bashrc like this:
 
 export PATH="/home/fandingding/software/last/bin/":$PATH;
+
+##How to use it ?
+
+Firstly ,"sh 01.self.genome.alignment.sh your.genome.fasta" ; it will generate 01.batch.lastz.sh you can modify the shell and parelled the  01.batch.lastz.sh to use more CPU .
+
+Secondly, "sh 02.class.sh" all.out.solar.infor.best.class will be you classfication resut. 
+
+Note: the R1 and R2 were split randomly !!!
+
+If any communiction please mail to biocomfun@qq.com.
+
+########## End ############
+
 
