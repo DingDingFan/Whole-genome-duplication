@@ -8,8 +8,8 @@ open Log ,">$source.log";
 #################################gt80###############
 
 my %gt80;
-#my $cutoff=0.8;
-my $cutoff=0.6;
+my $cutoff=0.8;
+#my $cutoff=0.6;
 my @cluster;
 open I,"$source";
 while(<I>){
@@ -92,7 +92,7 @@ while(<I>){
 }
 close O;
 close I;
-`~/software/DNA_evolution/Plant/01.gene_family/bin/software/mcl   $source.sort.bed.cluster.interval.tab  -I 1.2 --abc -o $source.sort.bed.cluster.interval.tab.cluster`;
+`mcl   $source.sort.bed.cluster.interval.tab  -I 1.2 --abc -o $source.sort.bed.cluster.interval.tab.cluster`;
 my %clu_inter;
 my $i=0;
 open I ,"$source.sort.bed.cluster.interval.tab.cluster";
