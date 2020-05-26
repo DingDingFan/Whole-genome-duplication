@@ -207,7 +207,7 @@ foreach my $c1(sort keys %class2){
 }
 %tmp=();
 close O;
-`~/software/DNA_evolution/Plant/01.gene_family/bin/software/mcl   $source.pair.table  -I 1.2 --abc -o $source.pair.table.cluster`;
+`mcl   $source.pair.table  -I 1.2 --abc -o $source.pair.table.cluster`;
 
 ######################cluaster 2 R1 R2################
 my %R;
