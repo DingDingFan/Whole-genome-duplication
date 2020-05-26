@@ -1,4 +1,4 @@
-# WGD_subgenome_split
+# Subgenome_split
 
 ##What is This?
 
