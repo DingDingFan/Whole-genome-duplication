@@ -1,2 +1,2 @@
 # whole-genome-duplication
-WGD analysis for Genome of Schizothorax o’connori
+Pipelies for WGD anal ys   genome analysis of Schizothorax o’connori
