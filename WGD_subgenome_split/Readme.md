@@ -43,7 +43,7 @@ $ export PATH="/home/fandingding/software/last/bin/":$PATH;
 
 ```
 
-##How to use it ?
+## How to use it ?
 
 Firstly ,"sh 01.self.genome.alignment.sh your.genome.fasta" ; it will generate 01.batch.lastz.sh you can modify the shell and parelled the  01.batch.lastz.sh to use more CPU .
 
@@ -58,9 +58,13 @@ sh 02.class.sh
 
 ```
 
+## Contact
 
 If any communiction please mail to biocomfun@qq.com.
 
-########## End ############
+Thanks you very much !
+
+## End
+
 
 
