@@ -60,7 +60,7 @@ sh 02.class.sh
 
 ## Contact
 
-If any communiction please mail to biocomfun@qq.com.
+If any problem, please mail to biocomfun@qq.com.
 
 Thanks you very much !
 
