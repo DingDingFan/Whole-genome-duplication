@@ -10,7 +10,7 @@
   
   Secondly,we detect t 2:1 the orthorlogues according to the single best reciprocal hit.
   
-  Here we recommend to remove Ohnolog on the same contigs which mostly be generated from tandem duplication. 
+  Here, we recommend to remove Ohnolog on the same contigs which mostly be generated from tandem duplication. 
   
  
 ## pipeline dependencies
