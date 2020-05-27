@@ -18,7 +18,7 @@ It contains 4 part:
 
   ## 3 Gene_Lost
 
-   Desinged to find singleon genes after WGD.
+    Desinged to find singleon genes after WGD.
 
   ## 4 LASTZ_alignment_visualize
 
