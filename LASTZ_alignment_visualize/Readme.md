@@ -1,44 +1,58 @@
-# Ohnolog detect
+# LASTZ alignment visualization
+
 
 ## What is This?
 
-  This pipeline was used to detect Ohnolog genes based on amino acid sequence alignments to a reference protomes , such as we use zebrafish in the S o’connori genome project. 
-## How it works?
-  The S o’connori had a recently (~ 1.23 mya) wholge genome duplication, the gene content should be double compare to zebrafish . Apprently, the orthorlogy genes of zebrafish should have two copy in the  S o’connori genome. 
-  
-  Firstly ,we do amino acid alignment using BLAST with (-e 1e-10),the reference genome was used as database.
-  
-  Secondly,we detect t 2:1 the orthorlogues according to the single best reciprocal hit.
-  
-  Here, we recommend to remove Ohnolog on the same contigs which mostly be generated from tandem duplication. 
+  This pipeline was used to alignment two long DNA sequence (can be mega bases) with LASTZ aliger and visulaze the alignment with repeat element ,gene structure. 
+  Here is a example:
+  ! https://github.com/DingDingFan/whole-genome-duplication/blob/master/LASTZ_alignment_visualize/figure2e.sv.visu.svg
   
  
 ## pipeline dependencies
 
 
-1 BLAST: 
+1 LASTZ:
 
-  Protein-Protein BLAST 2.6.0+
+https://github.com/lastz/lastz
 
+2 LAST:
 
+http://last.cbrc.jp/
+
+3 UCSC genome browser 'kent' bioinformatic utilities:
+
+http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64.v385/
   
 Please makesure those tools on your path, remeber edit ~/.bashrc like this:
 
 ```
-
 $ export PATH="/home/fandingding/software/last/bin/":$PATH;
-
 ```
 
+You can install some dependence with conda:
+
+```
+conda install -c bioconda lastz
+conda install -c bioconda last
+conda install -c conda-forge perl
+
+```
 ## How to use it ?
 
 
 ```
 
-$ sh 01.runme.pipeline.sh SCHoco.pep zebrafish.pep
+#Firstly ,you can make a draft with this:
 
+$ perl chr_alignment.lastz.pl test.list  genome.fas
+
+# base on the draft piture ,you can strict to regions and run 
+
+$ perl chr_alignment.region.lastz.pl test.region.list genome.fas
 
 ```
+
+To get better visualization, you make need modify code.
 
 ## Contact
 
