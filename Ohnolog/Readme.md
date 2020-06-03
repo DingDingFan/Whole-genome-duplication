@@ -4,7 +4,7 @@
 
   This pipeline was used to detect Ohnolog genes based on amino acid sequence alignments to a reference protomes , such as we use zebrafish in the S o’connori genome project. 
 ## How it works?
-  The S o’connori had a recently (~ 1.23 mya) wholge genome duplication, the gene content should be double compare to zebrafish . Apprently, the orthorlogy genes of zebrafish should have two copy in the  S o’connori genome. 
+  The S o’connori had a recently (~ 1.23 mya) whole genome duplication, the gene content should be double compared to zebrafish . Apprently, the orthorlogy genes of zebrafish should have two copy in the  S o’connori genome. 
   
   Firstly ,we do amino acid alignment using BLAST with (-e 1e-10),the reference genome was used as database.
   
