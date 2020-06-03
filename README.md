@@ -1,5 +1,5 @@
 
-# whole-genome-duplication
+# Whole-genome-duplication
 
 
 Pipelies for genome analysis of Schizothorax o’connori;
