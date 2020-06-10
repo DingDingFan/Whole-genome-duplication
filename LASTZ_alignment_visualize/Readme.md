@@ -5,7 +5,7 @@
 
   This pipeline was used to alignment two long DNA sequence (can be mega bases) with LASTZ aliger and visulaze the alignment with repeat element ,gene structure. 
   Here is a example:
-  ![] (https://github.com/DingDingFan/whole-genome-duplication/blob/master/LASTZ_alignment_visualize/lastz.github.log.svg) 
+  ![example ] (https://github.com/DingDingFan/whole-genome-duplication/blob/master/LASTZ_alignment_visualize/lastz.github.log.svg) 
   
  
 ## pipeline dependencies
