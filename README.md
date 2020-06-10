@@ -2,7 +2,11 @@
 # Whole-genome-duplication
 
 
-Pipelies for genome analysis of Schizothorax o’connori;
+Pipelies for genome analysis of *Schizothorax o’connori*, a endemic fish in Tibet; 
+Schizothoracinae (order Cypriniformes, family Cyprinidae) is an important subfamily of endemic fish on the QTP.Whole-genome duplications (WGDs) of Schizothoracinae are believed to have played a significant role in speciation and environmental adaptation on the Qinghai-Tibet Plateau (QTP). Here, we present the tetraploid genome of Schizothorax o’connori, which underwent a recent WGD later than ~1.23 Ma. 
+
+  ![*S o’connori*](https://github.com/DingDingFan/whole-genome-duplication/blob/master/LASTZ_alignment_visualize/lastz.github.log.svg) 
+
 
 
 It contains 4 part:
