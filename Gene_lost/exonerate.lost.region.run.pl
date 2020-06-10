@@ -35,8 +35,8 @@ foreach my $g1 (keys %pair){
 	open O ,">exonout/$g1.gene.fasta";	
 	print O ">$g2 $g2\n$fas{$g2}\n";
 	close O;
-	`exonerate  --model protein2genome   exonout/$g1.pep.fasta exonout/$g1.gene.fasta   --showtargetgff  > exonout/$g1.exon ;` 
-	#` exonerate  --model protein2genome   exonout/$g1.pep.fasta exonout/$g1.gene.fasta   --showtargetgff  > exonout/$g1.exon ;  makeblastdb  -input_type  fasta  -dbtype nucl -in exonout/$g1.gene.fasta  ;  tblastn  -db exonout/$g1.gene.fasta   -out exonout/$g1.tblastn  -evalue 1e-2  -num_threads 1  -query exonout/$g1.pep.fasta  -outfmt 6 `;
+	#`exonerate  --model protein2genome   exonout/$g1.pep.fasta exonout/$g1.gene.fasta   --showtargetgff  > exonout/$g1.exon ;` 
+	` exonerate  --model protein2genome   exonout/$g1.pep.fasta exonout/$g1.gene.fasta   --showtargetgff  > exonout/$g1.exon ;  makeblastdb  -input_type  fasta  -dbtype nucl -in exonout/$g1.gene.fasta  ;  tblastn  -db exonout/$g1.gene.fasta   -out exonout/$g1.tblastn  -evalue 1e-2  -num_threads 1  -query exonout/$g1.pep.fasta  -outfmt 6 `;
 	#$i++;
 	#exit if $i >3000;
 }
