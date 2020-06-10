@@ -10,7 +10,7 @@ QTP.Whole-genome duplications (WGDs) of Schizothoracinae are believed to have pl
 
 speciation and environmental adaptation on the Qinghai-Tibet Plateau (QTP). 
 
-  ![*S o’connori*](https://github.com/DingDingFan/whole-genome-duplication/blob/master/LASTZ_alignment_visualize/lastz.github.log.svg) 
+  ![*S o’connori*](https://github.com/DingDingFan/whole-genome-duplication/blob/master/Fish.png) 
 
 
 
